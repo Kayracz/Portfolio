@@ -5,20 +5,18 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+> This is a Ruby 5 application that allows users to create their own portfolios.
 
-* System dependencies
+### Features
 
-* Configuration
+- Real time chat engine for comments
+- blog portfolio
+- drag and drop interface
 
-* Database creation
+### Code Example
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```ruby
+def my_great_method
+puts 'here it is'
+end
+```
