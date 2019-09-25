@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/Kayracz/KayViewTool.git
+  revision: f416863a09a5d8665874edacf3ea36783e53d77d
+  specs:
+    KayViewTool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -197,6 +203,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  KayViewTool!
   bootsnap (>= 1.1.0)
   bootstrap (~> 4.0)
   byebug
