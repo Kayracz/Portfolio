@@ -51,3 +51,5 @@ gem 'friendly_id', '~> 5.2.4'
 
 
 gem 'KayViewTool', git:'https://github.com/Kayracz/KayViewTool.git'
+
+gem 'petergate'
