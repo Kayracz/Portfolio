@@ -17,22 +17,24 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
   </head>
-
-  <body>
-   <div class="site-wrapper">
-
+ <body>
+    <div class="site-wrapper">
       <div class="site-wrapper-inner">
-
         <div class="cover-container">
 
-   <%= render "shared/application_nav" %>
+          <%= render "shared/application_nav" %>
+          <hr>
 
-    <%= yield %>
-   <%= render "shared/application_footer" %>
-   <%= source_helper("application") %>
+          <%= yield %>
 
-  </div>
- </div>
-</div>
+
+          <hr>
+          <%= render "shared/application_footer" %>
+
+          <%= source_helper("application") %>
+
+        </div>
+      </div>
+    </div>
   </body>
 </html>

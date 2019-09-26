@@ -157,3 +157,59 @@ body {
     width: 60rem;
   }
 }
+
+
+/*
+ * Custom Styles
+ */
+
+.card-block{
+ color: black;
+ text-align: left;
+}
+
+.card-block h2{
+  font-size: 25px;
+}
+
+.card-block i{
+  font-size: 15px;
+}
+
+.card-block > .row {
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+label{
+  font-size: 18px;
+}
+
+.cover-container{
+ margin-top: 8%;
+ margin-bottom: 10%;
+}
+
+.auth-links a{
+ color: black;
+ padding-left: 2%;
+}
+
+.register-text {
+ text-align: right;
+}
+
+.auth-links2 a{
+ padding-left: 0%;
+ color:black;
+}
+
+.login > .card {
+  width: 22rem;
+  margin: 0 auto;
+  float: none;
+}
+
+
+
+
