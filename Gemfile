@@ -53,3 +53,9 @@ gem 'friendly_id', '~> 5.2.4'
 gem 'KayViewTool', git:'https://github.com/Kayracz/KayViewTool.git'
 
 gem 'petergate'
+
+gem 'font-awesome-sass', '~> 5.6', '>= 5.6.1'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
+
+gem 'kaminari', '~> 1.1', '>= 1.1.1'
+

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <script src="https://kit.fontawesome.com/0671cb6605.js" crossorigin="anonymous"></script>
     <title><%= @page_title %></title>
     <%= csrf_meta_tags %>
 
@@ -16,16 +16,8 @@
   <body>
 
     <%= render 'shared/blog_nav' %>
+    <%= render 'shared/blog_masthead' %>
 
-    <!-- start of blog header -->
-    <div class="blog-header">
-      <div class="container">
-        <h1 class="blog-title">My Blog</h1>
-        <p class="lead blog-description">Tips & Tricks for Coders.</p>
-        <%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %>
-      </div>
-    </div>
-    <!-- end of blog header -->
 
     <div class="container">
 
@@ -33,14 +25,12 @@
 
         <%= yield %>
 
-        <!-- start of sidebar -->
      <%= render 'shared/blog_sidebar' %>
-        <!-- end of sidebar -->
       </div>
 
         <!-- start of footer -->
         <div class="text-center">
-          <%= render "shared/application_footer" %>
+          <%= render "shared/blog_footer" %>
         </div>
         <!-- end of footer -->
 
