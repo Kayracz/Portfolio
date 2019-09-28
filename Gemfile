@@ -62,3 +62,5 @@ gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'jquery-rails'
 
+gem 'dotenv-rails', groups: [:development, :test]
+
