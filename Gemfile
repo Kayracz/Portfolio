@@ -64,3 +64,8 @@ gem 'jquery-rails'
 
 gem 'dotenv-rails', groups: [:development, :test]
 
+gem 'cloudinary'
+gem 'carrierwave', '~> 1.2'
+gem 'carrierwave-aws', '~> 1.4'
+gem 'mini_magick', '~> 4.9', '>= 4.9.5'
+
