@@ -1,5 +1,6 @@
 @import "bootstrap";
 @import "font-awesome-sprockets";
+@import "gritter";
 @import "font-awesome";
 
 /* Links */
@@ -225,7 +226,7 @@ label{
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: image-url('home_bg.png') no-repeat;
+  background: image-url('') no-repeat;
   background-size: cover;
 }
 
