@@ -21,14 +21,21 @@
     <div class="site-wrapper">
       <div class="site-wrapper-inner">
         <div class="cover-container">
-
+          <%= video_tag(
+              '',
+              id: 'background',
+              autoplay: true,
+              loop: true,
+              muted: true,
+              poster: ''
+            )
+            %>
           <%= render "shared/application_nav" %>
 
 
           <%= yield %>
 
 
-          <hr>
           <%= render "shared/application_footer" %>
 
           <%= source_helper("application") %>

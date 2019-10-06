@@ -14,7 +14,7 @@ gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
-gem 'devise'
+gem "devise", ">= 4.7.1"
 
 gem 'bootstrap', '~> 4.0'
 
@@ -61,4 +61,11 @@ gem 'kaminari', '~> 1.1', '>= 1.1.1'
 
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'jquery-rails'
+
+gem 'dotenv-rails', groups: [:development, :test]
+
+gem 'cloudinary'
+gem 'carrierwave', '~> 1.2'
+gem 'carrierwave-aws', '~> 1.4'
+gem 'mini_magick', '~> 4.9', '>= 4.9.5'
 
