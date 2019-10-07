@@ -10,6 +10,7 @@ Rails.application.routes.draw do
   get 'aboutme', to: 'pages#about'
   get 'contact', to: 'pages#contact'
   get 'portfolio/:id', to: 'portfolios#show', as: 'portfolio_show'
+  get 'blog/:id', to: 'blogs#show', as: 'blog_show'
   get 'tech-news', to: 'pages#tech_news'
 
   resources :blogs do
@@ -17,6 +18,8 @@ Rails.application.routes.draw do
      get :toggle_status
     end
   end
+
+  mount ActionCable.server => '/cable'
 
   root to: 'pages#home'
 end
