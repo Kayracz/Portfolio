@@ -155,7 +155,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 60rem;
+    width: 65rem;
   }
 }
 
@@ -235,3 +235,15 @@ label{
   color: white;
 }
 
+.tech-news{
+  color:black;
+  margin: 20px;
+}
+
+.tech-news a{
+  color: dodgerblue;
+}
+
+.tech-news > .card {
+  padding:30px;
+}
