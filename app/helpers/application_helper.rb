@@ -33,6 +33,10 @@ module ApplicationHelper
         url: aboutme_path,
         title: 'About Me'
       },
+            {
+        url: tech_news_path,
+        title: 'Tech News'
+      },
       {
         url: contact_path,
         title: 'Contact'
@@ -45,10 +49,7 @@ module ApplicationHelper
         url: portfolios_path,
         title: 'Portfolio'
       },
-         {
-        url: tech_news_path,
-        title: 'Tech News'
-      },
+
     ]
   end
 
