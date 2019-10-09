@@ -9,6 +9,7 @@
     <%= csp_meta_tag %>
 
     <meta name="keywords" content="<%= @seo_keywords %>"/>
+    <%= favicon_link_tag 'kaylogo.jpg' %>
 
     <%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -38,7 +39,6 @@
 
           <%= render 'shared/alerts' %>
           <%= render "shared/application_footer" %>
-          <%= source_helper("application") %>
 
 <!-- WhatsHelp.io widget -->
 <script type="text/javascript">
