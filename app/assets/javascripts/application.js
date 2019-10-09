@@ -11,8 +11,7 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery-ujs
-//= require jquery-ui
+//= require rails-ujs
 //= require html.sortable
 //= require cocoon
 //= require gritter
