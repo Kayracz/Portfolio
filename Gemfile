@@ -42,8 +42,6 @@ gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'jquery-rails'
 
-gem 'dotenv-rails', groups: [:development, :test]
-
 gem 'cloudinary'
 gem 'carrierwave', '~> 1.2'
 gem 'carrierwave-aws', '~> 1.4'
@@ -54,3 +52,5 @@ gem 'twitter', '~> 6.2'
 gem 'redis', '~> 4.1', '>= 4.1.3'
 gem 'redcarpet', '~> 3.3', '>= 3.3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
+
+gem 'dotenv-rails', groups: [:development, :test]
