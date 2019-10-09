@@ -41,7 +41,7 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 gem 'kaminari', '~> 1.1', '>= 1.1.1'
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 gem 'jquery-rails'
-
+gem 'dotenv-rails'
 gem 'cloudinary'
 gem 'carrierwave', '~> 1.2'
 gem 'carrierwave-aws', '~> 1.4'
@@ -53,4 +53,3 @@ gem 'redis', '~> 4.1', '>= 4.1.3'
 gem 'redcarpet', '~> 3.3', '>= 3.3.4'
 gem 'coderay', '~> 1.1', '>= 1.1.2'
 
-gem 'dotenv-rails', groups: [:development, :test]
