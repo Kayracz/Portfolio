@@ -122,6 +122,8 @@ body {
 
 .mastfoot {
   color: rgba(255,255,255,.5);
+  // margin-top: 20px;
+  margin-bottom: -20px;
 }
 
 
@@ -155,7 +157,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 65rem;
+    width: 66rem;
   }
 }
 
@@ -237,7 +239,7 @@ label{
 
 .tech-news{
   color:black;
-  margin: 20px;
+  margin: 5px;
 }
 
 .tech-news a{
@@ -245,5 +247,34 @@ label{
 }
 
 .tech-news > .card {
-  padding:30px;
+  padding:15px;
+}
+
+
+.app-card-container {
+  color: black;
+  text-align: left;
+  border-radius: 10;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img {
+  border: 1px solid grey;
+}
+
+.app-card-container a {
+  color: blue;
+}
+
+.card-block{
+margin-top:5px;
+margin-bottom:5px;
+}
+
+.skill{
+margin-top:10px;
+margin-bottom:10px;
 }

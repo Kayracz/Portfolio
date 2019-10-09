@@ -1,8 +1,18 @@
-    <div class="col-sm-3 offset-sm-1 blog-sidebar">
-      <div class="sidebar-module sidebar-module-inset">
-         <h4>About</h4>
-         <p>Articles, Tutorials and more for Ruby, Rails, Javascript, HTML & CSS.</p>
-    </div>
+
+<div class="col-sm-3 offset-sm-1 blog-sidebar">
+  <div class="sidebar-module sidebar-module-inset">
+    <h4>About</h4>
+    <p>Articles, Tutorials and more for Ruby, Rails, Javascript, HTML & CSS.</p>
+  </div>
+
+  <%= source_helper("alert alert-info blog-sidebar-source") %>
+
+  <div class="sidebar-module">
+    <h4>Topics</h4>
+    <% @side_bar_topics.each do |topic| %>
+      <p><%= link_to topic.title, topic_path(topic) %></p>
+    <% end %>
+  </div>
 
   <div class="sidebar-module">
     <h4>Elsewhere</h4>

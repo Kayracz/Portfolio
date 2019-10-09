@@ -11,12 +11,18 @@ module ApplicationHelper
   end
 
 
-   def source_helper(layout_name)
-      if session[:source]
-      greeting = "Thanks for visiting me from #{session[:source]} and you are on the #{layout_name} layout"
-      content_tag(:p, greeting, class: "source-greeting")
-      end
-   end
+  def source_helper(styles)
+    if session[:source]
+      greeting = "Thanks for visiting me from #{session[:source]}, please feel free to #{ link_to 'contact me', contact_path } if you'd like to work together."
+      content_tag(:div, greeting.html_safe, class: styles)
+    end
+  end
+
+  def progressbar_colors
+    colors = ['bg-primary','bg-success','bg-info','bg-warning','bg-danger']
+    random_number = rand(5)
+    colors[random_number]
+  end
 
 
  def copyright_generator
@@ -33,6 +39,10 @@ module ApplicationHelper
         url: aboutme_path,
         title: 'About Me'
       },
+            {
+        url: tech_news_path,
+        title: 'Tech News'
+      },
       {
         url: contact_path,
         title: 'Contact'
@@ -45,10 +55,7 @@ module ApplicationHelper
         url: portfolios_path,
         title: 'Portfolio'
       },
-         {
-        url: tech_news_path,
-        title: 'Tech News'
-      },
+
     ]
   end
 
