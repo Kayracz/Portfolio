@@ -18,6 +18,12 @@ module ApplicationHelper
     end
   end
 
+  def progressbar_colors
+    colors = ['bg-primary','bg-success','bg-info','bg-warning','bg-danger']
+    random_number = rand(5)
+    colors[random_number]
+  end
+
 
  def copyright_generator
    @copyright = KayViewTool::Renderer.copyright 'Kayra Czerniewicz', 'All rights reserved'
