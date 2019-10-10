@@ -96,6 +96,6 @@ class BlogsController < ApplicationController
     end
 
     def set_sidebar_topics
-      @side_bar_topics = Topic.with_blogs
+      @side_bar_topics = Topic.includes(:blogs).where.not(blogs: { id: nil })
     end
 end
