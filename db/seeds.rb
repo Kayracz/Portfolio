@@ -10,13 +10,13 @@ end
 puts "10 blog posts created"
 
 
-3.times do |topic|
-  Topic.create!(
-    title: "Topic #{topic}"
-  )
-end
+# 3.times do |topic|
+#   Topic.create!(
+#     title: "Topic #{topic}"
+#   )
+# end
 
-puts "3 Topics created"
+# puts "3 Topics created"
 
 5.times do |skill|
   Skill.create!(
