@@ -28,7 +28,14 @@ h6, .h6 {
   color: #333;
 }
 
+  .bg-light {
+    background-color: #15212B !important;
+    color:white !important;
+}
 
+ .bg-light a{
+    color:white !important;
+}
 /*
  * Override Bootstrap's default container.
  */
@@ -106,7 +113,6 @@ h6, .h6 {
     font-size: 3.5rem;
   }
 }
-
 
 /*
  * Main column and sidebar layout

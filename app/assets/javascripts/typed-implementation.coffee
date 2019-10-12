@@ -1,8 +1,10 @@
 ready = ->
   Typed.new '.element',
     strings: [
-      'Software development is the closest concept we have to magic.'
-      "It's my goal to ensure that anyone with a passion for coding can become a true programming artisan."
+      'Hellooo, I am Kayra'
+      "My goal is to build tools to create meaningfull businesses, "
+      "facilitate processes and simplify app users life in general."
+       "Welcome to my webpage !"
     ]
     typeSpeed: 0
   return

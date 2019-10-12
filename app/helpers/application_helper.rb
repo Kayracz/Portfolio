@@ -37,11 +37,11 @@ module ApplicationHelper
       },
       {
         url: aboutme_path,
-        title: 'About Me'
+        title: 'About'
       },
             {
         url: tech_news_path,
-        title: 'Tech News'
+        title: 'News'
       },
       {
         url: contact_path,
