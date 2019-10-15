@@ -129,8 +129,12 @@ label{
 
 
 .profile-img {
-  border: 1px solid grey;
+  // border: 1px solid grey;
   border-radius: 20px;
+}
+
+.firstheading{
+ color:#007bff;
 }
 
 .app-card-container a {
@@ -150,6 +154,16 @@ margin-bottom:10px;
 
 .secondheading{
   font-weight: 400;
+}
+
+.other ul{
+  margin-left: -31px;
+}
+
+.info{
+  font-weight:200;
+  font-size: 11px;
+
 }
 
 // phones
