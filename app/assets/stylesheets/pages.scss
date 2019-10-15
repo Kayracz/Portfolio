@@ -3,27 +3,49 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 @import "gritter";
 
-.cover-heading{
-  font-size: 4.5rem;
+.bannerhome{
+  margin-top: 14%;
+  margin-bottom: 15%;
 }
 
-.element{
-  font-size: 1.5rem;
+.bannertech{
+  margin-top: 3%;
+  margin-bottom: 6%;
 }
 
-.cardstyle{
-  border: 1px solid #22A1FA;
+.bannercontact{
+  margin-bottom: 45% !important;
 }
 
-.cardstyle2{
-  border: 1px solid #22A1FF;
+.bannerhome h1{
+  font-size: 70px;
 }
-.cardstyle2{
-  border: 1px solid #22A1FF;
-}
+
+.navbar{
+   // padding: 2.5rem 1rem;
+  }
+
 
  @media screen and (max-width: 768px) {
-  .btn{
-    margin: 8px;
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: black;
+    background-color: white;
+    border-radius: 28px;
+}
+
+.bannerhome {
+    margin-top: 26%;
+    margin-bottom: 55%;
+  }
+
+  .homefooter{
+    font-size:10px;
+    margin-top: 10px;
   }
  }
+
+.navbar-brand{
+ font-weight: bolder;
+ font-size: 25px;
+}

@@ -18,10 +18,8 @@
 
   </head>
  <body>
-    <div class="site-wrapper">
-      <div class="site-wrapper-inner">
-        <div class="cover-container">
-          <%= video_tag(
+          <%= render "shared/application_nav" %>
+<!--           <%= video_tag(
               '',
               id: 'background',
               autoplay: true,
@@ -29,15 +27,14 @@
               muted: true,
               poster: ''
             )
-            %>
-          <%= render "shared/application_nav" %>
+            %> -->
 
 
           <%= yield %>
 
 
-          <%= render 'shared/alerts' %>
           <%= render "shared/application_footer" %>
+          <%= render 'shared/alerts' %>
 
 <!-- WhatsHelp.io widget -->
 <script type="text/javascript">
@@ -58,8 +55,5 @@
 </script>
 <!-- /WhatsHelp.io widget -->
 
-        </div>
-      </div>
-    </div>
   </body>
 </html>

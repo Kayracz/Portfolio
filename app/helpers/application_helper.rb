@@ -35,26 +35,31 @@ module ApplicationHelper
         url: root_path,
         title: 'Home'
       },
+
       {
         url: aboutme_path,
         title: 'About'
+      },
+
+      {
+        url: blogs_path,
+        title: 'Blog'
+      },
+
+      {
+        url: portfolios_path,
+        title: 'Portfolio'
       },
             {
         url: tech_news_path,
         title: 'News'
       },
+
       {
         url: contact_path,
         title: 'Contact'
       },
-      {
-        url: blogs_path,
-        title: 'Blog'
-      },
-      {
-        url: portfolios_path,
-        title: 'Portfolio'
-      },
+
 
     ]
   end

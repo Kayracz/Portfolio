@@ -7,6 +7,13 @@
   margin-bottom: 0;
 }
 
+.navbar-brand{
+ font-weight: bolder;
+ font-size: 25px;
+ font-family: helvetica neue;
+}
+
+
 .jumbotron {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -77,3 +84,10 @@ background-color: #15212B !important;
     margin: 8px;
   }
  }
+
+ @media only screen and (max-device-width: 480px) {
+  .navbar-brand{
+   font-size: 20px;
+  }
+
+}

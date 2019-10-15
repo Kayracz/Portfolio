@@ -44,6 +44,26 @@ h6, .h6 {
   max-width: 60rem;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: helvetica neue;
+    font-size: 16px;
+}
+
+ @media screen and (max-width: 768px) {
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: black;
+    background-color: white;
+    border-radius: 28px;
+}
+}
+
+.navbar-brand{
+ font-weight: bolder;
+ font-size: 25px;
+ font-family: helvetica neue;
+}
 
 /*
  * Masthead for nav
@@ -213,3 +233,18 @@ h6, .h6 {
 .blog-sidebar-source {
   margin-top: 20px;
 }
+
+  .nav-link.active:after {
+ display:none;
+    }
+
+@media only screen and (max-device-width: 480px) {
+  .navbar-brand{
+   font-size: 20px;
+  }
+
+  .nav-link.active:after {
+ display:none;
+    }
+}
+
