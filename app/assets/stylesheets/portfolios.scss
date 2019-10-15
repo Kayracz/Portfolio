@@ -71,3 +71,9 @@ footer p {
 background-color: #15212B !important;
 }
 
+
+ @media screen and (max-width: 768px) {
+  .btn{
+    margin: 8px;
+  }
+ }
