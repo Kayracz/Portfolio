@@ -26,10 +26,31 @@
   font-size: 70px;
 }
 
-.navbar{
-   // padding: 2.5rem 1rem;
-  }
 
+.social-links{
+  font-size:50px;
+}
+
+
+.fa-facebook-f:before, .fa-facebook:before {
+    color: blue;
+}
+
+.fa-github:before {
+    color:black;
+}
+
+.fa-instagram:before {
+    color: deeppink;
+}
+
+.fa-linkedin:before {
+    color: #007bff;
+}
+
+.alignment{
+  text-align: justify;
+}
 
  @media screen and (max-width: 768px) {
 .navbar-light .navbar-toggler {
