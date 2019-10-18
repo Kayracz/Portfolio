@@ -1,3 +1,4 @@
+<!-- <div class="container-fluid">
 <div class="app-card-container">
   <div class="card">
     <h1 class="firstheading">My Online CV</h1>
@@ -36,7 +37,7 @@
         </div>
       </div>
 
-      <div class="col-md-8">
+      <div class="col-md-7 respon">
       <br>
         <b class="firstheading">ABOUT ME</b>
         <p class="alignment">With a couple years of working in E-commerce startups, I decided to acquire development experience. I realized that the typical product creation process between clients and developers was flawed. All too often developers rarely communicate in the same way to clients throughout the development stage, resulting in a final product that fails to reach the goal sought by the customer and end user.</p>
@@ -145,4 +146,175 @@
     </div>
   </div>
 </div>
+</div> -->
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+</style>
+
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+  <!-- The Grid -->
+  <div class="w3-row-padding">
+
+    <!-- Left Column -->
+    <div class="w3-third">
+
+      <div class="w3-white w3-text-grey w3-card-4">
+        <div class="w3-display-container">
+             <%= image_tag "profile.jpg", width: 300, alt: "profile image", class: 'profile-img' %>
+          <div class="w3-display-bottomleft w3-container w3-text-black">
+      <!--       <h2>Kayra Czerniewicz Terrazas</h2> -->
+          </div>
+        </div>
+            <br>
+
+      <div class="container-fluid">
+     <span class="social-links">
+     <a href="https://github.com/Kayracz" target="_blank"><i class="fab fa-github"></i></a>
+     <a href="https://www.instagram.com/kayczt/" target="_blank"><i class="fab fa-instagram"></i></a>
+     <a href="https://www.facebook.com/kayra.czerniewicz" target="_blank"><i class="fab fa-facebook"></i></a>
+     <a href="www.linkedin.com/in/kayracz" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </span>
+        </div>
+
+          <br>
+        <div class="w3-container">
+          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>International Bussiness, Management & Full Stack Development</p>
+          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>Santa Cruz, Bolivia</p>
+          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i><a class="btn-contact" href="mailto:kayracz@gmail.com?subject=PortfolioContact" "email me">Email me</a></p>
+          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i><%= number_to_phone "(+591) 78000375" %></p>
+          <hr>
+
+          <p class="w3-large"><b><i class="fa fa-code fa-fw w3-margin-right "></i>Programming languages</b></p>
+            <div class="skills">
+                <% @skills.each do |skill| %>
+                  <div class="skill">
+                    <h4><%= skill.title %></h4>
+                    <div class="progress">
+                      <div
+                        class="progress-bar progress-bar-striped progress-bar-animated"
+                        role="progressbar"
+                        aria-valuenow="<%= skill.percent_utilized %>"
+                        aria-valuemax="100"
+                        style="width: <%= skill.percent_utilized %>%"
+                      ></div>
+                    </div>
+                  </div>
+                <% end %>
+              </div>
+
+          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+          <p>English</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <br>
+          <p>Spanish</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          </div>
+          <br>
+          <p>French</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:90%"></div>
+          </div>
+            <br>
+           <p>Dutch</p>
+          <div class="w3-light-grey w3-round-xlarge">
+            <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+    <!-- End Left Column -->
+    </div>
+
+
+ <div class="collapse" id="jobHistory">
+            <div class="card cardstyle card-block">
+             <b>Rv10.com.bo - CTO</b> <i>Santa Cruz, Bolivia  –  June  2019 – October 2019</i>
+             Created and manage Rv10’s e-commerce web page. www.rv10.com.bo
+            </div>
+            <div class="card cardstyle card-block">
+             <b>FixPart.com - French Markets Manager</b> <i> Hertogenbosch, Holland – December  2016 – November 2017</i>
+             <span>•Operations and growth manager in France, Belgium and Luxembourg.</span>
+             <span>•All translations of the content, products and legal terms of the website in French countries.</span>
+             <span>•Market research for possible expansions (Spain)</span>
+             <span>•Recruitment and training for interns and French/Spanish personnel</span>
+             <span>• Social media marketing and planning for France, Germany, the Netherlands, Belgium and Luxembourg. </span>
+           </div>
+            <div class="card cardstyle card-block">
+             <b>GRUPAZO.com - E-Commerce & Logistics Management</b> <i>Buenos Aires, Argentina – January 2016 – June 2016</i>
+             <span>• Marketing analysis and strategy implementation</span>
+             <span>• Daily update of social networks, email marketing, promotions and online advertising</span>
+             <span>• logistics, supply chain management and inventory management</span>
+            </div>
+          </div>
+
+
+
+
+    <!-- Right Column -->
+    <div class="w3-twothird">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>Rv10.com.bo - CTO</b> <i>Santa Cruz, Bolivia</i></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June  2019 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
+          <p>  Created and manage Rv10’s e-commerce web page. www.rv10.com.bo</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>FixPart.com - French Markets Manager</b> <i> Hertogenbosch, Holland</i></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>December  2016 – November 2017</h6>
+          <p> <span>Operations and growth manager in France, Belgium and Luxembourg.</span></p>
+          <p> <span>All translations of the content, products and legal terms of the website in French countries.</span></p>
+          <p> <span>Market research for possible expansions (Spain)</span> </p>
+          <p> <span>Recruitment and training for interns and French/Spanish personnel</span> </p>
+          <p> <span>Social media marketing and planning for France, Germany, the Netherlands, Belgium and Luxembourg. </span></p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>GRUPAZO.com - E-Commerce & Logistics Management</b> <i>Buenos Aires, Argentina</i></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>January 2016 – June 2016</h6>
+          <p><span>Marketing analysis and strategy implementation</span></p>
+          <p><span>Daily update of social networks, email marketing, promotions and online advertising</span></p>
+          <p><span>Logistics, supply chain management and inventory management</span></p><br>
+        </div>
+      </div>
+
+      <div class="w3-container w3-card w3-white">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>W3Schools.com</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Forever</h6>
+          <p>Web Development! All I need to know in one place</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>London Business School</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 - 2015</h6>
+          <p>Master Degree</p>
+          <hr>
+        </div>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><b>School of Coding</b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2010 - 2013</h6>
+          <p>Bachelor Degree</p><br>
+        </div>
+      </div>
+
+    <!-- End Right Column -->
+    </div>
+
+  <!-- End Grid -->
+  </div>
+
+  <!-- End Page Container -->
+</div>
+
 

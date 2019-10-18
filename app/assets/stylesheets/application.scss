@@ -4,25 +4,24 @@
 @import "pages";
 @import "font-awesome";
 
-@import url('https://fonts.googleapis.com/css?family=Oswald');
+// @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-/* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
-}
+// /* Links */
+// a,
+// a:focus,
+// a:hover {
+//   color: #fff;
+// }
 
-/*
- * Base structure
- */
+// /*
+//  * Base structure
+//  */
 
-html,
+// html,
 
 body {
   color: #fff;
-  text-align: center;
-  background-color: #15212B;
+  background-color: #15212B !important;
 }
 
 h1{
@@ -30,10 +29,18 @@ h1{
 }
 
 
+
+.profile-img {
+  border: 1px solid grey;
+    vertical-align: middle;
+    border-style: none;
+    // border-radius: 143px;
+    margin-left: 32px;
+    margin-top: 20px;
+}
+
   .bg-light {
     background-color: #15212B !important;
-    color:white !important;
-    margin-top: 4px;
 }
 
  .bg-light a{
@@ -128,10 +135,6 @@ label{
 }
 
 
-.profile-img {
-  // border: 1px solid grey;
-  border-radius: 20px;
-}
 
 .firstheading{
  color:#007bff;

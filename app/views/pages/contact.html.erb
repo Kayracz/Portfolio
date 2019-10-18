@@ -1,20 +1,21 @@
 <br>
 <br>
-<div class="app-card-container container bannercontact">
+<div class="app-card-container container bannertech">
   <div class="card text-center">
-    <h1 class="text-center">Would you like to work together?</h1>
+    <h1 class="text-center titlecontact">Would you like to work together?</h1>
     <hr>
      <h3>I am located in:</h3>
 
-    <p>Santa Cruz, Bolivia</p>
+    <p class="titlecontact">Santa Cruz, Bolivia</p>
 
     <h3>Phone</h3>
 
-    <p><%= number_to_phone "(+591) 78000375" %></p>
+    <p class="titlecontact"><%= number_to_phone "(+591) 78000375" %></p>
 
     <h3>Email</h3>
+    <br>
+    <p><a class="btn-contact" href="mailto:kayracz@gmail.com?subject=PortfolioContact" "email me">Email me</a></p>
 
-    <p><a href="mailto:kayracz@gmail.com?subject=PortfolioContact" "email me">Email me</a> </p>
 </div>
 </div>
 
@@ -22,4 +23,24 @@
   h3{
     color:#15222B
 ;  }
+
+.titlecontact p{
+  color: #007bff;
+}
+
+.btn-contact{
+    background-color: #007bff;
+    font-size: 15px;
+    padding: 13px 28px;
+    text-align: center;
+    border: none;
+    outline: 0;
+    width: 23%;
+    border-radius: 23px;
+}
+
+.app-card-container a {
+    color: white;
+    text-decoration: none;
+}
 </style>
