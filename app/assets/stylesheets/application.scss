@@ -31,12 +31,13 @@ h1{
 
 
 .profile-img {
-  border: 1px solid grey;
+    border: 1px solid grey;
     vertical-align: middle;
     border-style: none;
-    // border-radius: 143px;
-    margin-left: 32px;
+    margin-left: 28px;
     margin-top: 20px;
+    margin-right: 43px;
+    border-radius: 40px;
 }
 
   .bg-light {
@@ -216,11 +217,17 @@ margin-bottom:10px;
   .profile-img {
     border: 1px solid grey;
     border-radius: 20px;
-    width: 101%;
+    width: 84%;
 }
 
 .secondheading{
   font-size: 1rem;
+}
+
+.social-links2{
+  text-align: center;
+  justify-content: center;
+  display: flex;
 }
 }
 
