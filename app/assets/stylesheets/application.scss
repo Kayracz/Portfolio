@@ -34,10 +34,8 @@ h1{
     border: 1px solid grey;
     vertical-align: middle;
     border-style: none;
-    margin-left: 28px;
-    margin-top: 20px;
-    margin-right: 43px;
-    border-radius: 40px;
+     width: 100%;
+  height: auto;
 }
 
   .bg-light {
@@ -213,11 +211,22 @@ margin-bottom:10px;
     padding-right: 5px;
   }
 
+.fa-briefcase:before {
+    font-size: 18px;
+}
+
+.fa-home:before {
+     font-size: 19px;
+}
+
+.fa-envelope:before {
+     font-size: 18px;
+}
 
   .profile-img {
-    border: 1px solid grey;
-    border-radius: 20px;
-    width: 84%;
+
+     width: 100%;
+  height: auto;
 }
 
 .secondheading{
@@ -230,5 +239,18 @@ margin-bottom:10px;
   display: flex;
 }
 }
+
+
+// ipad
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+
+.profile-img{
+      width: 192px !important;
+}
+}
+
+
 
 
