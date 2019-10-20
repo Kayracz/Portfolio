@@ -1,5 +1,7 @@
 class PagesController < ApplicationController
   layout "application"
+  before_action :authenticate_user!, :only => [:about]
+
   def home
  @posts = Blog.all
  @skills = Skill.all

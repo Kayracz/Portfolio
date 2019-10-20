@@ -1,7 +1,7 @@
 <div class="col-md-4">
 <div class="card" data-id="<%= portfolio_item.id %>">
   <%= image_tag portfolio_img(portfolio_item.thumb_image, 'thumb'), width:'100%' %>
-  <p class="card-text">
+ <p class="card-text">
     <span><%= link_to portfolio_item.title, portfolio_show_path(portfolio_item) %></span> <%= portfolio_item.subtitle %>
   </p>
 </div>
@@ -10,10 +10,12 @@
 <style>
   .card > img {
    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+   border-radius: 2px;
 }
 
    .card-text{
         color: #15222B;
+        text-align: center;
    }
 
    .jumbotron{

@@ -37,13 +37,13 @@ module ApplicationHelper
       },
 
       {
-        url: aboutme_path,
-        title: 'About'
+        url: portfolios_path,
+        title: 'Tech Portfolio'
       },
 
       {
-        url: portfolios_path,
-        title: 'Tech Portfolio'
+        url: aboutme_path,
+        title: 'My CV'
       },
 
             {
@@ -51,10 +51,10 @@ module ApplicationHelper
         title: 'News'
       },
 
-      {
-        url: blogs_path,
-        title: 'Blog'
-      },
+      # {
+      #   url: blogs_path,
+      #   title: 'Blog'
+      # },
 
 
       # {

@@ -61,6 +61,10 @@
 //     padding-right: 0px;
 // }
 
+  .navbar-brand{
+font-family: 'Liu Jian Mao Cao', cursive;
+  }
+
 
  @media screen and (max-width: 768px) {
 .navbar-light .navbar-toggler {
@@ -69,6 +73,14 @@
     background-color: white;
     border-radius: 28px;
 }
+
+  a.nav-link{
+    border-style: solid;
+    border-color: white;
+    padding: 10px !important;
+    border-width: thin;
+    margin: 4px;
+  }
 
 .bannerhome {
     margin-top: 26%;
