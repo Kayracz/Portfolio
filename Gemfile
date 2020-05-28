@@ -38,7 +38,7 @@ gem 'petergate'
 
 gem 'font-awesome-sass', '~> 5.6', '>= 5.6.1'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
-gem 'kaminari', '~> 1.1', '>= 1.1.1'
+gem 'kaminari', '~> 1.2'
 gem 'rails-ujs'
 gem 'jquery-rails'
 gem 'dotenv-rails'
